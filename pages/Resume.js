@@ -23,20 +23,20 @@ const Resume = () => {
             Tola MaryAnn Ojegbile
           </h2>
           <div className="flex">
-            <a
+            <Link
               href="https://www.linkedin.com/in/ojegbile-maryann-omotola-59ab91227/"
               target="_blank"
               rel="noreferrer"
             >
               <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://github.com/TolaMaryAnn"
               target="_blank"
               rel="noreferrer"
             >
               <FaGithub size={20} style={{ marginRight: "1rem" }} />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
@@ -164,7 +164,7 @@ const Resume = () => {
             <span className="px-2">|</span>Remote
           </p>
           <p className="py-1 italic">
-            Front-End Developer (Feburary 2023 - Current)
+            Front-End Developer (Feburary 2023 - April 2023)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>

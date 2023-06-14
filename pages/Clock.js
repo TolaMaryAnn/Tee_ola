@@ -30,20 +30,20 @@ const Clock = () => {
         <p className='py-2 text-gray-600'>
           This app was built using JavaScript and is hosted on Vercel. It is a clock and it displays time.
         </p>
-        <a
+        <Link
           href='https://github.com/TolaMaryAnn/javascript-clock'
           target='_blank'
           rel='noreferrer'
         >
           <button className='px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#c69c72] to-[#c69c72] text-white'>Code</button>
-        </a>
-        <a
+        </Link>
+        <Link
           href='https://jsclock-nine.vercel.app/'
           target='_blank'
           rel='noreferrer'
         >
           <button className='px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#c69c72] to-[#c69c72] text-white'>Demo</button>
-        </a>
+        </Link>
       </div>
       <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-6'>
         <div className='p-2'>

@@ -81,7 +81,7 @@ const Contact = () => {
             <div>
               <p className='uppercase pt-8'>Connect With Me</p>
               <div className='flex items-center justify-between py-4'>
-                <a
+                <Link
                   href='https://www.linkedin.com/in/ojegbile-maryann-omotola-59ab91227/'
                   target='_blank'
                   rel='noreferrer'
@@ -89,8 +89,8 @@ const Contact = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <FaLinkedinIn />
                   </div>
-                </a>
-                <a
+                </Link>
+                <Link
                   href='https://github.com/TolaMaryAnn'
                   target='_blank'
                   rel='noreferrer'
@@ -98,12 +98,12 @@ const Contact = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <FaGithub />
                   </div>
-                </a>
+                </Link>
 
-               <Link href="tolaoje2004@gmail.com">
+               <Link href="">
                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 
-                <AiOutlineMail />
+                <AiOutlineMail /> tolaoje2004@gmail.com
                 
               </div>
                </Link>

@@ -42,7 +42,7 @@ const Navbar = () => {
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 font-[Raleway]'>
         <Link href='/'>
-          <a>
+        
             <Image
               src={logo}
               alt='/'
@@ -50,7 +50,7 @@ const Navbar = () => {
               height='50'
               className='cursor-pointer'
             />
-          </a>
+         
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -157,12 +157,12 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className='pt-40'>
+            <div className='pt-20'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
                 Let&#39;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <a
+                <Link
                   href='https://www.linkedin.com/in/ojegbile-maryann-omotola-59ab91227/'
                   target='_blank'
                   rel='noreferrer'
@@ -170,8 +170,8 @@ const Navbar = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaLinkedinIn />
                   </div>
-                </a>
-                <a
+                </Link>
+                <Link
                   href='https://github.com/TolaMaryAnn'
                   target='_blank'
                   rel='noreferrer'
@@ -179,8 +179,8 @@ const Navbar = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaGithub />
                   </div>
-                </a>
-                <Link href='tolaoje2004@gmail.com'>
+                </Link>
+                <Link href='/#contact'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
