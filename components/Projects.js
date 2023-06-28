@@ -18,7 +18,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4 text-xl">What I&apos;ve Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        {/* <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
             title="Foot wears E-commerce"
             backgroundImg={footie}
@@ -58,7 +58,7 @@ const Projects = () => {
             projectUrl="/gadgetTech"
             tech="Next JS"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
